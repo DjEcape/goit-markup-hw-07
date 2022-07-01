@@ -15,7 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
   </head>
 
   <body>
@@ -155,13 +156,13 @@
                       minlength="2"
                       maxlength="300"
                       placeholder="Введите текст"
-                      class="trnstn"
+                      class="trnstn textarea"
                     ></textarea>
                   </label>
                 </div>
 
-                <div class="checkbox__section">
-                  <label for="checkbox" class="checkbox__label">
+                <div class="checkbox__section trnstn">
+                  <label for="checkbox" class="checkbox__label trnstn">
                     <input
                       type="checkbox"
                       name="checkbox"
@@ -180,7 +181,7 @@
                     >
                   </label>
                 </div>
-                <button type="submit" class="form__btn-submit trnstn hover">
+                <button type="submit" class="form__btn-submit trnstn btn">
                   Отправить
                 </button>
               </form>
@@ -619,7 +620,7 @@
               placeholder="E-mail"
               class="subscription-form__input"
             />
-            <button type="submit" class="subscription-form__btn trnstn">
+            <button type="submit" class="subscription-form__btn trnstn btn">
               Подписаться
               <svg
                 class="subscription-form__btn-icon"
